@@ -29,6 +29,7 @@
             margin-bottom: 0.5rem;
         }
 
+        
         header p {
             font-size: 1.2rem;
         }
@@ -49,14 +50,17 @@
             color: #4b79a1;
         }
 
-        .about, .methods, .reviews, .contact {
+        .about, .methods, .reviews, .contact, .telegram {
             background-color: #fff;
             padding: 1.5rem;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
-         .about img {
+        .about img {
             width: 100%;
             max-width: 150px;
             border-radius: 50%;
@@ -86,7 +90,7 @@
             border-radius: 5px;
         }
 
-        .contact-form button {
+        .contact-form button, .telegram-form button {
             width: 100%;
             padding: 0.8rem;
             background-color: #4b79a1;
@@ -98,7 +102,7 @@
             transition: background-color 0.3s;
         }
 
-        .contact-form button:hover {
+        .contact-form button:hover, .telegram-form button:hover {
             background-color: #3d6481;
         }
     </style>
