@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учитель английского языка</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4b79a1;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #4b79a1;
+        }
+
+        .about, .methods, .reviews, .contact {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .methods ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .review {
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .review span {
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: #4b79a1;
+            color: #fff;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #3d6481;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Занятия по английскому языку с профессионалом</h1>
+    <p>Повышайте свои навыки английского с опытным преподавателем</p>
+</header>
+
+<div class="container">
+    <!-- About Section -->
+    <section class="section about">
+        <h2 class="section-title">Обо мне</h2>
+        <p>Привет! Я – Мария, преподаватель английского языка с более чем 10-летним опытом работы. Моя цель – помочь студентам 
+           любого возраста достичь своих целей в изучении английского языка, будь то разговорный английский, подготовка к экзаменам или 
+           повышение квалификации.</p>
+    </section>
+
+    <!-- Methods Section -->
+    <section class="section methods">
+        <h2 class="section-title">Методы обучения</h2>
+        <ul>
+            <li>Индивидуальный подход к каждому студенту</li>
+            <li>Интерактивные задания и практическое применение языка</li>
+            <li>Поддержка в изучении грамматики, словарного запаса и произношения</li>
+            <li>Подготовка к международным экзаменам (IELTS, TOEFL, и др.)</li>
+        </ul>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section reviews">
+        <h2 class="section-title">Отзывы студентов</h2>
+        <div class="review">
+            <p>"Мария помогла мне улучшить разговорный английский. Я стал увереннее говорить на встречах и переговорах."</p>
+            <span>- Антон П.</span>
+        </div>
+        <div class="review">
+            <p>"Очень структурированные и интересные уроки. Экзамен сдала на высокий балл!"</p>
+            <span>- Екатерина В.</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact">
+        <h2 class="section-title">Запишитесь на занятие</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваш email" required>
+            <textarea rows="5" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</div>
+
+</body>
+</html>
